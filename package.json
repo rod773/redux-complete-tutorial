@@ -1,5 +1,6 @@
 {
   "name": "redux-complete-tutorial",
+  "homepage": "wp-content/themes/redux-complete-tutorial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

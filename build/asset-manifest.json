@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wp-content/themes/redux-complete-tutorial/static/css/main.3f71f756.css",
+    "main.js": "/wp-content/themes/redux-complete-tutorial/static/js/main.6b57dd3e.js",
+    "index.html": "/wp-content/themes/redux-complete-tutorial/index.html",
+    "main.3f71f756.css.map": "/wp-content/themes/redux-complete-tutorial/static/css/main.3f71f756.css.map",
+    "main.6b57dd3e.js.map": "/wp-content/themes/redux-complete-tutorial/static/js/main.6b57dd3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f71f756.css",
+    "static/js/main.6b57dd3e.js"
+  ]
+}
