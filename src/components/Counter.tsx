@@ -1,6 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../state/store";
-import { decrement, increment } from "../state/counter/counterSlice";
+import {
+  decrement,
+  increment,
+  incrementByAmount,
+} from "../state/counter/counterSlice";
 
 const Counter = () => {
   const count = useSelector((state: RootState) => state.counter.value);
@@ -22,6 +26,12 @@ const Counter = () => {
           className="btn btn-warning my-1"
         >
           Decrement
+        </button>
+        <button
+          onClick={() => dispatch(incrementByAmount(10))}
+          className="btn btn-info my-1"
+        >
+          Incre By 10
         </button>
       </div>
     </div>
