@@ -24,9 +24,18 @@ export const counterSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(incrementAsync.fulfilled, (state, action) => {
-      state.value += action.payload;
-    });
+    builder
+      .addCase(incrementAsync.pending, () => {
+        console.log("increment pending");
+      })
+      .addCase(
+        incrementAsync.fulfilled,
+
+        (state, action: PayloadAction<number>) => {
+          console.log("increment fulfilled");
+          state.value += action.payload;
+        }
+      );
   },
 });
 
